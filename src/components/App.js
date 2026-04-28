@@ -117,7 +117,6 @@ const App = () => {
           </tbody>
           </thead>
         </table>
-        <h1 style={{color:'rgb(255, 0, 0)'}}>Helllllllllllooo</h1>
     </div>
   )
 }
