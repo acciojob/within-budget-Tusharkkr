@@ -1,1 +1,5 @@
-
+table{
+    td{
+        width: 200px;
+    }
+}
