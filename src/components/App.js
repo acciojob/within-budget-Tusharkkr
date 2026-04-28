@@ -84,6 +84,8 @@ const App = () => {
         <input onChange={handleChange} type="number"/>
         <h2>Items you can buy are in Green color</h2>
         <table>
+          <thead>
+            <tbody>
           <tr>
             <td>Apple</td>
             {apple? <td style={{color:'green'}} ref={appleRef}>20</td> : <td style={{color:'red'}} ref={appleRef}>20</td>}
@@ -112,6 +114,8 @@ const App = () => {
             <td>Iphone</td>
             {iphone? <td style={{color:'green'}} ref={iphoneRef}>80</td> : <td style={{color:'red'}} ref={iphoneRef}>80</td>}
           </tr>
+          </tbody>
+          </thead>
         </table>
     </div>
   )
