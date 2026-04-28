@@ -87,36 +87,37 @@ const App = () => {
           <thead>
             <tbody>
           <tr>
-            <td>Apple</td>
-            {apple? <td style={{color:'green'}} ref={appleRef}>20</td> : <td style={{color:'red'}} ref={appleRef}>20</td>}
+            <th>Apple</th>
+            {apple? <td style={{color:'rgb(0, 128, 0)'}} ref={appleRef}>20</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={appleRef}>20</td>}
           </tr>
           <tr>
-            <td>Banana</td>
-            {banana? <td style={{color:'green'}} ref={bananaRef}>10</td> : <td style={{color:'red'}} ref={bananaRef}>10</td>}
+            <th>Banana</th>
+            {banana? <td style={{color:'rgb(0, 128, 0)'}} ref={bananaRef}>10</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={bananaRef}>10</td>}
           </tr>
           <tr>
-            <td>Neutella</td>
-            {neutella? <td style={{color:'green'}} ref={neutellaRef}>30</td> : <td style={{color:'red'}} ref={neutellaRef}>30</td>}
+            <th>Neutella</th>
+            {neutella? <td style={{color:'rgb(0, 128, 0)'}} ref={neutellaRef}>30</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={neutellaRef}>30</td>}
           </tr>
           <tr>
-            <td>Razor</td>
-            {razor? <td style={{color:'green'}} ref={razorRef}>5</td> : <td style={{color:'red'}} ref={razorRef}>5</td>}
+            <th>Razor</th>
+            {razor? <td style={{color:'rgb(0, 128, 0)'}} ref={razorRef}>5</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={razorRef}>5</td>}
           </tr>
           <tr>
-            <td>CornFlakes</td>
-            {corn? <td style={{color:'green'}} ref={cornFlakesRef}>15</td> : <td style={{color:'red'}} ref={cornFlakesRef}>15</td>}
+            <th>CornFlakes</th>
+            {corn? <td style={{color:'rgb(0, 128, 0)'}} ref={cornFlakesRef}>15</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={cornFlakesRef}>15</td>}
           </tr>
           <tr>
-            <td>Sound Bar</td>
-            {sound? <td style={{color:'green'}} ref={soundBarRef}>50</td> : <td style={{color:'red'}} ref={soundBarRef}>50</td>}
+            <th>Sound Bar</th>
+            {sound? <td style={{color:'rgb(0, 128, 0)'}} ref={soundBarRef}>50</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={soundBarRef}>50</td>}
           </tr>
           <tr>
-            <td>Iphone</td>
-            {iphone? <td style={{color:'green'}} ref={iphoneRef}>80</td> : <td style={{color:'red'}} ref={iphoneRef}>80</td>}
+            <th>Iphone</th>
+            {iphone? <td style={{color:'rgb(0, 128, 0)'}} ref={iphoneRef}>80</td> : <td style={{color:'rgb(255, 0, 0)'}} ref={iphoneRef}>80</td>}
           </tr>
           </tbody>
           </thead>
         </table>
+        <h1 style={{color:'rgb(255, 0, 0)'}}>Helllllllllllooo</h1>
     </div>
   )
 }
